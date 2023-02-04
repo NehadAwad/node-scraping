@@ -1,7 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const url = "https://en.wikipedia.org/wiki/U.S._state"
+const url = "https://en.wikipedia.org/wiki/U.S._state";
 
 async function fetchData(req, res) {
     try{
@@ -18,6 +18,6 @@ async function fetchData(req, res) {
     }
 }
 
-module.exports = {
+module.exports = {  
     fetchData
 }
